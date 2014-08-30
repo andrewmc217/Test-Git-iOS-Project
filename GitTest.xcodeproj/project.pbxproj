@@ -21,6 +21,7 @@
 		A18DFCC619B23A02007E85D8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A18DFCA819B23A02007E85D8 /* UIKit.framework */; };
 		A18DFCCE19B23A02007E85D8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A18DFCCC19B23A02007E85D8 /* InfoPlist.strings */; };
 		A18DFCD019B23A02007E85D8 /* GitTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A18DFCCF19B23A02007E85D8 /* GitTestTests.m */; };
+		A18DFCDB19B23F25007E85D8 /* ACTest.m in Sources */ = {isa = PBXBuildFile; fileRef = A18DFCDA19B23F25007E85D8 /* ACTest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		A18DFCCB19B23A02007E85D8 /* GitTestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GitTestTests-Info.plist"; sourceTree = "<group>"; };
 		A18DFCCD19B23A02007E85D8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		A18DFCCF19B23A02007E85D8 /* GitTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GitTestTests.m; sourceTree = "<group>"; };
+		A18DFCD919B23F25007E85D8 /* ACTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ACTest.h; sourceTree = "<group>"; };
+		A18DFCDA19B23F25007E85D8 /* ACTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ACTest.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +85,8 @@
 		A18DFC9819B23A02007E85D8 = {
 			isa = PBXGroup;
 			children = (
+				A18DFCD919B23F25007E85D8 /* ACTest.h */,
+				A18DFCDA19B23F25007E85D8 /* ACTest.m */,
 				A18DFCAA19B23A02007E85D8 /* GitTest */,
 				A18DFCC919B23A02007E85D8 /* GitTestTests */,
 				A18DFCA319B23A02007E85D8 /* Frameworks */,
@@ -253,6 +258,7 @@
 				A18DFCB519B23A02007E85D8 /* ACAppDelegate.m in Sources */,
 				A18DFCBB19B23A02007E85D8 /* ACViewController.m in Sources */,
 				A18DFCB119B23A02007E85D8 /* main.m in Sources */,
+				A18DFCDB19B23F25007E85D8 /* ACTest.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
